@@ -1,0 +1,12 @@
+{
+    "default": {
+      "require": [
+        "features/step_definitions/*.mjs",
+        "features/hooks.js"        
+
+      ],
+      "paths": [
+        "features/Addcart.feature"
+      ]
+    }
+  }
