@@ -1,7 +1,7 @@
 Feature: Add a product to a cart in Amazon.in
 
-   Scenario: Add redmi mobile to cart
+   Scenario: Add iPhone 15 to cart
       Given I navigate to Amazon.in
-      And search product "Redmi 13C (Starshine Green, 4GB RAM, 128GB Storage) | Powered by 4G MediaTek" and select
+      And search product "iPhone 15 (128 GB) - Blue" and select
       And add product to cart
-      And verify product "Redmi 13C (Starshine Green, 4GB RAM, 128GB Storage) | Powered by 4G MediaTek" is added properly in cart
+      And verify product "iPhone 15 (128 GB) - Blue" is added properly in cart
